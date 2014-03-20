@@ -1,0 +1,6 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WWW-Root\/j4c\.com\/www\/assets\/sass\/style\.scss}line{font-family:\000031}}
+.show-grid [class^=col-] {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: rgba(86, 61, 124, 0.15);
+  border: 1px solid rgba(86, 61, 124, 0.2); }

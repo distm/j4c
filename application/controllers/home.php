@@ -3,7 +3,7 @@
 if (!defined('BASEPATH'))
     exit('No direct script access allowed');
 
-class Home extends CI_Controller {
+class Home extends MY_Controller {
 
     function __construct()
     {
@@ -12,7 +12,7 @@ class Home extends CI_Controller {
     
     function index()
     {
-        echo 'Index';
+        $this->load->view('main', $this->_data);
     }
 
 }
